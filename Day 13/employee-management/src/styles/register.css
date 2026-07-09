@@ -1,0 +1,177 @@
+.register-page{
+display:grid;
+grid-template-columns:1fr 1fr;
+height:100vh;
+}
+
+.register-left{
+background:linear-gradient(135deg,#2563eb,#4f46e5);
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+padding:70px;
+}
+
+.register-left h2{
+font-size:40px;
+margin:25px 0;
+}
+
+.register-left p{
+font-size:18px;
+line-height:1.8;
+opacity:.9;
+}
+
+.register-right{
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f4f7fe;
+}
+
+.register-card{
+background:white;
+width:480px;
+padding:40px;
+border-radius:20px;
+box-shadow:0 20px 40px rgba(0,0,0,.1);
+}
+
+.register-card h1{
+margin-bottom:10px;
+}
+
+.register-card p{
+color:#666;
+margin-bottom:25px;
+}
+
+.row{
+display:flex;
+gap:15px;
+}
+
+.row input{
+width:100%;
+}
+
+.register-card input{
+width:100%;
+padding:15px;
+margin-bottom:18px;
+border-radius:10px;
+border:1px solid #ddd;
+font-size:15px;
+}
+
+.password-box{
+position:relative;
+}
+
+.password-box button{
+position:absolute;
+right:15px;
+top:14px;
+background:none;
+border:none;
+font-size:18px;
+cursor:pointer;
+}
+
+.terms{
+display:flex;
+align-items:center;
+gap:8px;
+margin-bottom:20px;
+font-size:14px;
+}
+
+.terms input{
+width:auto;
+margin:0;
+}
+
+.register-btn{
+width:100%;
+padding:15px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:10px;
+font-size:17px;
+margin-bottom:20px;
+}
+
+.register-btn:hover{
+background:#1d4ed8;
+}
+
+.divider{
+text-align:center;
+position:relative;
+margin:20px 0;
+}
+
+.divider span{
+background:white;
+padding:0 10px;
+position:relative;
+z-index:2;
+}
+
+.divider::before{
+content:"";
+position:absolute;
+left:0;
+right:0;
+top:50%;
+height:1px;
+background:#ddd;
+}
+
+.google-btn{
+width:100%;
+padding:15px;
+border:1px solid #ddd;
+background:white;
+border-radius:10px;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:10px;
+font-size:16px;
+cursor:pointer;
+}
+
+.google-btn:hover{
+background:#f3f4f6;
+}
+
+.login-link{
+text-align:center;
+margin-top:20px;
+}
+
+.login-link a{
+margin-left:6px;
+color:#2563eb;
+font-weight:600;
+}
+
+@media(max-width:900px){
+
+.register-page{
+grid-template-columns:1fr;
+}
+
+.register-left{
+display:none;
+}
+
+.register-card{
+width:90%;
+}
+
+}
