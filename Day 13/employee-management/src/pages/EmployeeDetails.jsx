@@ -1,30 +1,44 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import API from "../services/api";
+import { getEmployee } from "../services/firestoreService";
 import "../styles/employeeDetails.css";
 
 function EmployeeDetails() {
   const { id } = useParams();
 
   const [employee, setEmployee] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchEmployee();
+    loadEmployee();
   }, []);
 
-  const fetchEmployee = async () => {
+  const loadEmployee = async () => {
     try {
-      const response = await API.get(`/users/${id}`);
-      setEmployee(response.data);
+      const data = await getEmployee(id);
+
+      console.log(data);
+
+      setEmployee(data);
     } catch (error) {
       console.log(error);
+    } finally {
+      setLoading(false);
     }
   };
+
+  if (loading) {
+    return (
+      <div className="loading">
+        Loading Employee...
+      </div>
+    );
+  }
 
   if (!employee) {
     return (
       <div className="loading">
-        Loading Employee...
+        Employee Not Found
       </div>
     );
   }
@@ -34,17 +48,23 @@ function EmployeeDetails() {
 
       <div className="profile-card">
 
-        <img
-          src={employee.image}
-          alt={employee.firstName}
-          className="profile-image"
-        />
+        <div className="profile-avatar">
+          👤
+        </div>
 
-        <h1>
-          {employee.firstName} {employee.lastName}
-        </h1>
+        <h1>{employee.name}</h1>
 
-        <p>{employee.company.title}</p>
+        <p>{employee.designation}</p>
+
+        <span
+          className={
+            employee.status === "Active"
+              ? "status active"
+              : "status inactive"
+          }
+        >
+          {employee.status}
+        </span>
 
       </div>
 
@@ -53,16 +73,6 @@ function EmployeeDetails() {
         <h2>Employee Information</h2>
 
         <div className="info-grid">
-
-          <div>
-            <strong>Age</strong>
-            <p>{employee.age}</p>
-          </div>
-
-          <div>
-            <strong>Gender</strong>
-            <p>{employee.gender}</p>
-          </div>
 
           <div>
             <strong>Email</strong>
@@ -76,36 +86,30 @@ function EmployeeDetails() {
 
           <div>
             <strong>Department</strong>
-            <p>{employee.company.department}</p>
+            <p>{employee.department}</p>
           </div>
 
           <div>
-            <strong>Company</strong>
-            <p>{employee.company.name}</p>
+            <strong>Designation</strong>
+            <p>{employee.designation}</p>
           </div>
 
           <div>
-            <strong>Blood Group</strong>
-            <p>{employee.bloodGroup}</p>
+            <strong>Salary</strong>
+            <p>₹ {employee.salary}</p>
           </div>
 
           <div>
-            <strong>University</strong>
-            <p>{employee.university}</p>
-          </div>
-
-          <div>
-            <strong>Address</strong>
-            <p>
-              {employee.address.address},
-              {" "}
-              {employee.address.city}
-            </p>
+            <strong>Joining Date</strong>
+            <p>{employee.joiningDate}</p>
           </div>
 
         </div>
 
-        <Link to="/employees" className="back-btn">
+        <Link
+          to="/employees"
+          className="back-btn"
+        >
           ← Back to Employees
         </Link>
 

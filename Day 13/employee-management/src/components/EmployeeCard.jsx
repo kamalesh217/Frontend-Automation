@@ -3,43 +3,91 @@ import {
   FaEnvelope,
   FaPhone,
   FaBuilding,
+  FaBriefcase,
+  FaUserCircle,
+  FaEye,
+  FaPen,
+  FaTrash,
 } from "react-icons/fa";
 
 function EmployeeCard({ employee }) {
   return (
-    <div className="employee-card">
+    <div className="emp-card">
 
-      <img src={employee.image} alt={employee.firstName} />
+      <div className="emp-card-header">
 
-      <h2>
-        {employee.firstName} {employee.lastName}
-      </h2>
+        <div className="emp-avatar">
+          {employee.image ? (
+            <img src={employee.image} alt={employee.name} />
+          ) : (
+            <FaUserCircle />
+          )}
+        </div>
 
-      <p className="designation">
-        {employee.company.title}
+        <span
+          className={
+            employee.source === "company"
+              ? "company-badge"
+              : "api-badge"
+          }
+        >
+          {employee.source === "company"
+            ? "Company"
+            : "External API"}
+        </span>
+
+      </div>
+
+      <h2>{employee.name}</h2>
+
+      <p className="emp-designation">
+        <FaBriefcase />
+        <span>{employee.designation}</span>
       </p>
 
       <p>
         <FaEnvelope />
-        {employee.email}
+        <span>{employee.email}</span>
       </p>
 
       <p>
         <FaPhone />
-        {employee.phone}
+        <span>{employee.phone}</span>
       </p>
 
       <p>
         <FaBuilding />
-        {employee.company.department}
+        <span>{employee.department}</span>
       </p>
 
-      <Link
-        to={`/employee/${employee.id}`}
-        className="details-btn"
-      >
-        View Details
-      </Link>
+      <div className="emp-buttons">
+
+        <Link
+          to={`/employee/${employee.id}`}
+          className="view-btn"
+        >
+          <FaEye />
+          View
+        </Link>
+
+        {employee.source === "company" && (
+          <>
+            <Link
+              to={`/edit/${employee.id}`}
+              className="edit-btn"
+            >
+              <FaPen />
+              Edit
+            </Link>
+
+            <button className="delete-btn">
+              <FaTrash />
+              Delete
+            </button>
+          </>
+        )}
+
+      </div>
 
     </div>
   );

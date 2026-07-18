@@ -1,95 +1,177 @@
+.page{
+padding:30px;
+background:#f4f7fb;
+min-height:100vh;
+}
+
 .employee-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-bottom:30px;
-    flex-wrap:wrap;
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:30px;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.employee-header h1{
+font-size:38px;
+font-weight:700;
+color:#1e293b;
 }
 
 .search-box{
-    width:320px;
-    padding:12px 18px;
-    border-radius:10px;
-    border:1px solid #ddd;
-    outline:none;
-    font-size:15px;
+width:320px;
+padding:12px 18px;
+border-radius:10px;
+border:1px solid #d1d5db;
+outline:none;
+font-size:15px;
 }
 
 .search-box:focus{
-    border-color:#2563eb;
+border-color:#2563eb;
 }
 
 .employee-list{
-    display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
-    gap:25px;
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(330px,1fr));
+gap:30px;
 }
 
-.employee-card{
-    background:white;
-    border-radius:15px;
-    padding:25px;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
-    transition:.3s;
-    text-align:center;
+.emp-card{
+background:#fff;
+padding:25px;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
 }
 
-.employee-card:hover{
-    transform:translateY(-8px);
+.emp-card:hover{
+transform:translateY(-8px);
+box-shadow:0 20px 40px rgba(0,0,0,.15);
 }
 
-.employee-card img{
-    width:110px;
-    height:110px;
-    border-radius:50%;
-    border:4px solid #2563eb;
+.emp-card-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:20px;
 }
 
-.employee-card h2{
-    margin-top:15px;
-    color:#222;
+.emp-avatar{
+width:85px;
+height:85px;
 }
 
-.designation{
-    color:#2563eb;
-    font-weight:bold;
-    margin:10px 0;
+.emp-avatar img{
+width:85px;
+height:85px;
+border-radius:50%;
+object-fit:cover;
 }
 
-.employee-card p{
-    margin:10px 0;
-    color:#555;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:10px;
+.emp-avatar svg{
+width:85px;
+height:85px;
+color:#2563eb;
 }
 
-.details-btn{
-    display:inline-block;
-    margin-top:20px;
-    background:#2563eb;
-    color:white;
-    padding:12px 25px;
-    border-radius:8px;
-    text-decoration:none;
-    transition:.3s;
+.emp-card h2{
+margin:10px 0;
+color:#1e293b;
 }
 
-.details-btn:hover{
-    background:#1d4ed8;
+.emp-designation{
+color:#2563eb;
+font-weight:600;
+}
+
+.emp-card p{
+display:flex;
+align-items:center;
+gap:10px;
+margin:10px 0;
+color:#555;
+}
+
+.company-badge{
+background:#dcfce7;
+color:#15803d;
+padding:6px 14px;
+border-radius:30px;
+font-size:13px;
+font-weight:bold;
+}
+
+.api-badge{
+background:#dbeafe;
+color:#2563eb;
+padding:6px 14px;
+border-radius:30px;
+font-size:13px;
+font-weight:bold;
+}
+
+.emp-buttons{
+display:flex;
+gap:10px;
+margin-top:20px;
+}
+
+.view-btn,
+.edit-btn,
+.delete-btn{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:8px;
+padding:10px;
+border:none;
+border-radius:8px;
+text-decoration:none;
+color:#fff;
+font-weight:600;
+cursor:pointer;
+}
+
+.view-btn{
+background:#2563eb;
+}
+
+.edit-btn{
+background:#10b981;
+}
+
+.delete-btn{
+background:#ef4444;
+}
+
+.view-btn:hover{
+background:#1d4ed8;
+}
+
+.edit-btn:hover{
+background:#059669;
+}
+
+.delete-btn:hover{
+background:#dc2626;
 }
 
 @media(max-width:768px){
 
 .employee-header{
-    flex-direction:column;
-    align-items:flex-start;
+flex-direction:column;
+align-items:flex-start;
 }
 
 .search-box{
-    width:100%;
-    margin-top:20px;
+width:100%;
+}
+
+.emp-buttons{
+flex-direction:column;
 }
 
 }
