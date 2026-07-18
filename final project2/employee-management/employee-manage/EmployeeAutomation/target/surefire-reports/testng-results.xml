@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-18T15:29:20 IST" name="EmployeeManagementSuite" finished-at="2026-07-18T15:30:21 IST" duration-ms="60761">
+    <groups>
+    </groups>
+    <test started-at="2026-07-18T15:29:20 IST" name="Admin Portal Tests" finished-at="2026-07-18T15:29:48 IST" duration-ms="27689">
+      <class name="com.employee.automation.AdminTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:20 IST" name="setUp" finished-at="2026-07-18T15:29:21 IST" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminLogin()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:21 IST" name="testAdminLogin" description="Admin valid login navigates to /admin/dashboard" finished-at="2026-07-18T15:29:25 IST" duration-ms="3469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:25 IST" name="tearDown" finished-at="2026-07-18T15:29:25 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:25 IST" name="setUp" finished-at="2026-07-18T15:29:26 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminLoginInvalid()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:26 IST" name="testAdminLoginInvalid" description="Admin login with wrong password shows error message" finished-at="2026-07-18T15:29:28 IST" duration-ms="2452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLoginInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:28 IST" name="tearDown" finished-at="2026-07-18T15:29:28 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:28 IST" name="setUp" finished-at="2026-07-18T15:29:29 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminDashboardStatsCards()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:29 IST" name="testAdminDashboardStatsCards" description="Admin dashboard loads and shows stat cards" finished-at="2026-07-18T15:29:32 IST" duration-ms="3349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminDashboardStatsCards -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:32 IST" name="tearDown" finished-at="2026-07-18T15:29:32 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:32 IST" name="setUp" finished-at="2026-07-18T15:29:33 IST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminDashboardDock()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:33 IST" name="testAdminDashboardDock" description="Admin navigation links are present and the Employees link navigates correctly" finished-at="2026-07-18T15:29:36 IST" duration-ms="3076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminDashboardDock -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:36 IST" name="tearDown" finished-at="2026-07-18T15:29:36 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:36 IST" name="setUp" finished-at="2026-07-18T15:29:37 IST" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminEmployeeList()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:37 IST" name="testAdminEmployeeList" description="Admin employee list page loads with employee cards and search" finished-at="2026-07-18T15:29:40 IST" duration-ms="3513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminEmployeeList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:40 IST" name="tearDown" finished-at="2026-07-18T15:29:41 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:41 IST" name="setUp" finished-at="2026-07-18T15:29:41 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminSalaryManagement()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:41 IST" name="testAdminSalaryManagement" description="Admin salary management page loads with app-layout" finished-at="2026-07-18T15:29:44 IST" duration-ms="2861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminSalaryManagement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:44 IST" name="tearDown" finished-at="2026-07-18T15:29:44 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:44 IST" name="setUp" finished-at="2026-07-18T15:29:45 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminAttendanceManagement()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:45 IST" name="testAdminAttendanceManagement" description="Admin attendance management page loads with app-layout" finished-at="2026-07-18T15:29:48 IST" duration-ms="2981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminAttendanceManagement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.AdminTests@56f72909]" started-at="2026-07-18T15:29:48 IST" name="tearDown" finished-at="2026-07-18T15:29:48 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employee.automation.AdminTests -->
+    </test> <!-- Admin Portal Tests -->
+    <test started-at="2026-07-18T15:29:48 IST" name="Employee Portal Tests" finished-at="2026-07-18T15:30:06 IST" duration-ms="18480">
+      <class name="com.employee.automation.EmployeeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:29:48 IST" name="setUp" finished-at="2026-07-18T15:29:49 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmployeeLogin()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:29:49 IST" name="testEmployeeLogin" description="Employee valid login navigates to /employee/dashboard" finished-at="2026-07-18T15:29:51 IST" duration-ms="2809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:29:51 IST" name="tearDown" finished-at="2026-07-18T15:29:52 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:29:52 IST" name="setUp" finished-at="2026-07-18T15:29:52 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmployeeLoginInvalid()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:29:52 IST" name="testEmployeeLoginInvalid" description="Employee login with wrong password shows error message" finished-at="2026-07-18T15:29:55 IST" duration-ms="2656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeLoginInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:29:55 IST" name="tearDown" finished-at="2026-07-18T15:29:55 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:29:55 IST" name="setUp" finished-at="2026-07-18T15:29:56 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmployeeDashboard()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:29:56 IST" name="testEmployeeDashboard" description="Employee dashboard loads with app-layout and navigation" finished-at="2026-07-18T15:29:59 IST" duration-ms="2910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeDashboard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:29:59 IST" name="tearDown" finished-at="2026-07-18T15:29:59 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:29:59 IST" name="setUp" finished-at="2026-07-18T15:29:59 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmployeeAttendance()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:29:59 IST" name="testEmployeeAttendance" description="Employee attendance page loads with app-layout and attendance records" finished-at="2026-07-18T15:30:03 IST" duration-ms="3138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeAttendance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:30:03 IST" name="tearDown" finished-at="2026-07-18T15:30:03 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:30:03 IST" name="setUp" finished-at="2026-07-18T15:30:03 IST" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmployeeLeaveRequest()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:30:03 IST" name="testEmployeeLeaveRequest" description="Employee leave request page loads with app-layout" finished-at="2026-07-18T15:30:06 IST" duration-ms="2965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeLeaveRequest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.EmployeeTests@c1a74d]" started-at="2026-07-18T15:30:06 IST" name="tearDown" finished-at="2026-07-18T15:30:06 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employee.automation.EmployeeTests -->
+    </test> <!-- Employee Portal Tests -->
+    <test started-at="2026-07-18T15:30:06 IST" name="Create Employee Test" finished-at="2026-07-18T15:30:21 IST" duration-ms="14578">
+      <class name="com.employee.automation.CreateEmployeeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.employee.automation.CreateEmployeeTest@27053257]" started-at="2026-07-18T15:30:06 IST" name="setUp" finished-at="2026-07-18T15:30:07 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateEmployee()[pri:0, instance:com.employee.automation.CreateEmployeeTest@27053257]" started-at="2026-07-18T15:30:07 IST" name="testCreateEmployee" description="Create exactly one unique employee, verify in UI and MockAPI" finished-at="2026-07-18T15:30:21 IST" duration-ms="13757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employee.automation.CreateEmployeeTest@27053257]" started-at="2026-07-18T15:30:21 IST" name="tearDown" finished-at="2026-07-18T15:30:21 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employee.automation.CreateEmployeeTest -->
+    </test> <!-- Create Employee Test -->
+  </suite> <!-- EmployeeManagementSuite -->
+</testng-results>

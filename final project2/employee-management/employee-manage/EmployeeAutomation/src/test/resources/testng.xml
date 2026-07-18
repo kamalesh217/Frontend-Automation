@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  Employee Management App — Full TestNG Automation Suite
+  Covers: Admin pages (7 tests) + Employee pages (5 tests) + Create Employee (1 test) = 13 tests
+  Run: mvn test  (from EmployeeAutomation directory)
+-->
+<suite name="EmployeeManagementSuite" verbose="2">
+
+    <!-- ══════════════════════════════════════════════════════════════
+         ADMIN TESTS — Tests 1 to 7
+         ══════════════════════════════════════════════════════════════ -->
+    <test name="Admin Portal Tests">
+        <classes>
+            <class name="com.employee.automation.AdminTests">
+                <methods>
+                    <include name="testAdminLogin"/>
+                    <include name="testAdminLoginInvalid"/>
+                    <include name="testAdminDashboardStatsCards"/>
+                    <include name="testAdminDashboardDock"/>
+                    <include name="testAdminEmployeeList"/>
+                    <include name="testAdminSalaryManagement"/>
+                    <include name="testAdminAttendanceManagement"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- ══════════════════════════════════════════════════════════════
+         EMPLOYEE TESTS — Tests 8 to 12
+         ══════════════════════════════════════════════════════════════ -->
+    <test name="Employee Portal Tests">
+        <classes>
+            <class name="com.employee.automation.EmployeeTests">
+                <methods>
+                    <include name="testEmployeeLogin"/>
+                    <include name="testEmployeeLoginInvalid"/>
+                    <include name="testEmployeeDashboard"/>
+                    <include name="testEmployeeAttendance"/>
+                    <include name="testEmployeeLeaveRequest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- ══════════════════════════════════════════════════════════════
+         CREATE EMPLOYEE TEST — Test 13
+         Full E2E: unique data → pre-check → UI form → MockAPI verify
+         ══════════════════════════════════════════════════════════════ -->
+    <test name="Create Employee Test">
+        <classes>
+            <class name="com.employee.automation.CreateEmployeeTest">
+                <methods>
+                    <include name="testCreateEmployee"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

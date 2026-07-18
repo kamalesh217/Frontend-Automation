@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>TestNG:  Employee Portal Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Employee Portal Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 18 15:29:48 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>18 seconds (18480 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.employee.automation.EmployeeTests.testEmployeeAttendance()'><b>testEmployeeAttendance</b><br>Test class: com.employee.automation.EmployeeTests<br>Test method: Employee attendance page loads with app-layout and attendance records</td>
+<td></td>
+<td>3</td>
+<td>com.employee.automation.EmployeeTests@c1a74d</td></tr>
+<tr>
+<td title='com.employee.automation.EmployeeTests.testEmployeeLogin()'><b>testEmployeeLogin</b><br>Test class: com.employee.automation.EmployeeTests<br>Test method: Employee valid login navigates to /employee/dashboard</td>
+<td></td>
+<td>2</td>
+<td>com.employee.automation.EmployeeTests@c1a74d</td></tr>
+<tr>
+<td title='com.employee.automation.EmployeeTests.testEmployeeLeaveRequest()'><b>testEmployeeLeaveRequest</b><br>Test class: com.employee.automation.EmployeeTests<br>Test method: Employee leave request page loads with app-layout</td>
+<td></td>
+<td>2</td>
+<td>com.employee.automation.EmployeeTests@c1a74d</td></tr>
+<tr>
+<td title='com.employee.automation.EmployeeTests.testEmployeeDashboard()'><b>testEmployeeDashboard</b><br>Test class: com.employee.automation.EmployeeTests<br>Test method: Employee dashboard loads with app-layout and navigation</td>
+<td></td>
+<td>2</td>
+<td>com.employee.automation.EmployeeTests@c1a74d</td></tr>
+<tr>
+<td title='com.employee.automation.EmployeeTests.testEmployeeLoginInvalid()'><b>testEmployeeLoginInvalid</b><br>Test class: com.employee.automation.EmployeeTests<br>Test method: Employee login with wrong password shows error message</td>
+<td></td>
+<td>2</td>
+<td>com.employee.automation.EmployeeTests@c1a74d</td></tr>
+</table><p>
+</body>
+</html>

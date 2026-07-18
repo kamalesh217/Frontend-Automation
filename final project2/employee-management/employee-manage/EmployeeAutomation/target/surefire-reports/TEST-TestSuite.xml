@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="61.12" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\User\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.9.16\boot\plexus-classworlds-2.11.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.9.16/conf"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="guice_custom_class_loading" value="CHILD"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.9.16"/>
+    <property name="surefire.test.class.path" value="D:\Frontend Automaton\Final Project\employee-management\employee-manage\EmployeeAutomation\target\test-classes;D:\Frontend Automaton\Final Project\employee-management\employee-manage\EmployeeAutomation\target\classes;C:\Users\User\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.4\webdrivermanager-6.3.4.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java\3.7.1\docker-java-3.7.1.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-core\3.7.1\docker-java-core-3.7.1.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-api\3.7.1\docker-java-api-3.7.1.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.1\jackson-databind-2.20.1.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.1\jackson-core-2.20.1.jar;C:\Users\User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.7.1\docker-java-transport-httpclient5-3.7.1.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport\3.7.1\docker-java-transport-3.7.1.jar;C:\Users\User\.m2\repository\net\java\dev\jna\jna\5.18.1\jna-5.18.1.jar;C:\Users\User\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.19.0\commons-codec-1.19.0.jar;C:\Users\User\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.6\httpclient5-5.6.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.4\httpcore5-5.4.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.4\httpcore5-h2-5.4.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\4.45.0\selenium-java-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\4.45.0\selenium-api-4.45.0.jar;C:\Users\User\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.45.0\selenium-chrome-driver-4.45.0.jar;C:\Users\User\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.45.0\selenium-chromium-driver-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-json\4.45.0\selenium-json-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.45.0\selenium-manager-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.45.0\selenium-devtools-latest-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.45.0\selenium-devtools-v147-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.45.0\selenium-devtools-v148-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.45.0\selenium-devtools-v149-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.45.0\selenium-edge-driver-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.45.0\selenium-firefox-driver-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-http\4.45.0\selenium-http-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.45.0\selenium-ie-driver-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.45.0\selenium-remote-driver-4.45.0.jar;C:\Users\User\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-api\1.63.0\opentelemetry-api-1.63.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-context\1.63.0\opentelemetry-context-1.63.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-common\1.63.0\opentelemetry-common-1.63.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.63.0\opentelemetry-exporter-logging-1.63.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.63.0\opentelemetry-sdk-common-1.63.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.63.0\opentelemetry-sdk-extension-autoconfigure-spi-1.63.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.63.0\opentelemetry-sdk-extension-autoconfigure-1.63.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.63.0\opentelemetry-sdk-trace-1.63.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.63.0\opentelemetry-sdk-1.63.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.63.0\opentelemetry-sdk-metrics-1.63.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.63.0\opentelemetry-sdk-logs-1.63.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.18.10\byte-buddy-1.18.10.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-os\4.45.0\selenium-os-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.45.0\selenium-safari-driver-4.45.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\4.45.0\selenium-support-4.45.0.jar;C:\Users\User\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\User\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-26.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Frontend Automaton\Final Project\employee-management\employee-manage\EmployeeAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.1+8-34"/>
+    <property name="user.name" value="User"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\User\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="java.version" value="26.0.1"/>
+    <property name="user.dir" value="D:\Frontend Automaton\Final Project\employee-management\employee-manage\EmployeeAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Frontend Automaton\Final Project\employee-management\employee-manage\EmployeeAutomation"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\User\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\User\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\cursor\resources\app\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.16\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\Users\User\AppData\Local\Programs\Antigravity IDE\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26.0.1+8-34"/>
+    <property name="stdin.encoding" value="cp437"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.9.16\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.9.16\lib\jansi-native"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="testAdminLogin" classname="com.employee.automation.AdminTests" time="3.469">
+    <system-out><![CDATA[...
+... TestNG 7.12.0 by Cédric Beust (cedric@beust.com)
+...
+
+
+[BROWSER] Opened.
+▶ TEST 1: Admin Valid Login
+  [SETUP] Session cleared.
+  ✅ PASSED: Admin login redirects to dashboard
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 18, 2026 3:29:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testAdminLoginInvalid" classname="com.employee.automation.AdminTests" time="2.452">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+▶ TEST 2: Admin Invalid Login
+  [SETUP] Session cleared.
+  ✅ PASSED: Error shown: Invalid admin credentials
+  ✅ PASSED: URL stayed on login page
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:29:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testAdminDashboardStatsCards" classname="com.employee.automation.AdminTests" time="3.348">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+▶ TEST 3: Admin Dashboard — Stats Cards
+  [SETUP] Session cleared.
+  [OK] Logged in as Admin.
+  ✅ PASSED: Dashboard loaded with 4 stat cards
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:29:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testAdminDashboardDock" classname="com.employee.automation.AdminTests" time="3.077">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+▶ TEST 4: Admin Dashboard — Navigation Links
+  [SETUP] Session cleared.
+  [OK] Logged in as Admin.
+  ℹ Navigation mode: SIDEBAR
+  ✅ PASSED: Navigation visible, logout button present, nav link works
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:29:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testAdminEmployeeList" classname="com.employee.automation.AdminTests" time="3.513">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+▶ TEST 5: Admin Employee List
+  [SETUP] Session cleared.
+  [OK] Logged in as Admin.
+  ✅ PASSED: Employee list loaded with 2 card(s), search works
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:29:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testAdminSalaryManagement" classname="com.employee.automation.AdminTests" time="2.862">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+▶ TEST 6: Admin Salary Management
+  [SETUP] Session cleared.
+  [OK] Logged in as Admin.
+  ✅ PASSED: Salary Management page loaded correctly
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:29:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testAdminAttendanceManagement" classname="com.employee.automation.AdminTests" time="2.982">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+▶ TEST 7: Admin Attendance Management
+  [SETUP] Session cleared.
+  [OK] Logged in as Admin.
+  ✅ PASSED: Attendance Management page loaded correctly
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:29:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testEmployeeLogin" classname="com.employee.automation.EmployeeTests" time="2.809">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+▶ TEST 8: Employee Valid Login
+  [SETUP] Session cleared.
+  ✅ PASSED: Employee login redirects to dashboard
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:29:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testEmployeeLoginInvalid" classname="com.employee.automation.EmployeeTests" time="2.657">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+▶ TEST 9: Employee Invalid Login
+  [SETUP] Session cleared.
+  ✅ PASSED: Error shown: Invalid employee ID or password
+  ✅ PASSED: URL stayed on employee login page
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:29:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testEmployeeDashboard" classname="com.employee.automation.EmployeeTests" time="2.91">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+▶ TEST 10: Employee Dashboard
+  [SETUP] Session cleared.
+  [OK] Logged in as Employee (emp002).
+  ✅ PASSED: Employee dashboard loaded, nav works, profile nav works
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:29:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testEmployeeAttendance" classname="com.employee.automation.EmployeeTests" time="3.138">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+▶ TEST 11: Employee Attendance Page
+  [SETUP] Session cleared.
+  [OK] Logged in as Employee (emp003).
+  ✅ PASSED: Employee Attendance page loaded correctly
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:29:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testEmployeeLeaveRequest" classname="com.employee.automation.EmployeeTests" time="2.965">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+▶ TEST 12: Employee Leave Request Page
+  [SETUP] Session cleared.
+  [OK] Logged in as Employee (emp002).
+  ✅ PASSED: Employee Leave Request page loaded correctly
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:30:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateEmployee" classname="com.employee.automation.CreateEmployeeTest" time="13.757">
+    <system-out><![CDATA[[BROWSER] Closed.
+
+
+[BROWSER] Opened.
+=== TEST 13: Create Employee - Full E2E Validation ===
+============================================================
+
+  [STEP 1] Generated unique employee data:
+    Name    : Test Employee1784368807624
+    Role    : QA Automation Engineer
+    Email   : testuser.1784368807624@automation.test
+    Salary  : 62000
+    Phone   : 9368807624
+    Dept    : Engineering
+    Manager : Admin
+
+  [STEP 2] Pre-checking MockAPI for duplicate email...
+  [MockAPI] GET status: 200
+  [OK] Email is unique - proceeding.
+
+  [STEP 3] Logging in as Admin...
+  [SETUP] Session cleared.
+  [OK] Logged in as Admin.
+  [INFO] Initial employee count in UI: 12
+
+  [STEP 4] Capturing screenshot BEFORE form opens...
+  [SCREENSHOT] Saved: D:\Frontend Automaton\Final Project\employee-management\employee-manage\EmployeeAutomation\screenshots\20260718_153012_030_01_before_form_open.png
+
+  [STEP 5] Clicking Add Employee button (once)...
+  [OK] Modal opened.
+
+  [STEP 6] Filling form fields...
+  [OK] Filled: name=Test Employee1784368807624 | email=testuser.1784368807624@automation.test | role=QA Automation Engineer
+
+  [STEP 7] Capturing screenshot with form filled (before submit)...
+  [SCREENSHOT] Saved: D:\Frontend Automaton\Final Project\employee-management\employee-manage\EmployeeAutomation\screenshots\20260718_153014_110_02_form_filled_before_submit.png
+
+  [STEP 8] Clicking Save (single click)...
+  [OK] Save button disabled during submission: true
+
+  [STEP 9] Waiting for modal to close (success state)...
+  [OK] Modal closed - employee creation succeeded. (Req 6 verified)
+
+  [STEP 10] Capturing screenshot after successful creation...
+  [SCREENSHOT] Saved: D:\Frontend Automaton\Final Project\employee-management\employee-manage\EmployeeAutomation\screenshots\20260718_153020_532_03_after_employee_created.png
+
+  [STEP 11] Verifying employee appears in UI list...
+  [OK] Employee 'Test Employee1784368807624' is visible in UI list. (Req 7 passed)
+  [SCREENSHOT] Saved: D:\Frontend Automaton\Final Project\employee-management\employee-manage\EmployeeAutomation\screenshots\20260718_153021_007_04_employee_visible_in_list.png
+
+  [STEP 12] Verifying employee exists in MockAPI...
+  [MockAPI] GET status: 200
+  [MockAPI Response - first 400 chars]: [{"password":"pass123","name":"John Smith","email":"john.smith@company.com","phone":"555-0101","department":"Engineering","role":"Software Engineer","joinDate":"2025-10-12T13:06:19.645Z","salary":75000,"avatar":"JS","status":"active","address":"574 Alia Path","manager":"Admin","employeeType":"Full-Time","skills":"skills 1","bankaccount":"29454851","pan":"pan 1","id":"1"},{"password":"pass123","nam
+  [OK] Employee found in MockAPI by email. (Req 8 passed)
+
+============================================================
+  [SUMMARY] Employee Creation Results:
+  | Name      : Test Employee1784368807624
+  | Role      : QA Automation Engineer
+  | Email     : testuser.1784368807624@automation.test
+  | Dept      : Engineering
+  | Salary    : 62000
+  | Phone     : 9368807624
+  | Manager   : Admin
+  | MockAPI ID: 14
+  | In MockAPI: true
+  | In UI     : true
+============================================================
+  [PASSED] TEST 13: Employee created, verified in UI and MockAPI.
+]]></system-out>
+    <system-err><![CDATA[Jul 18, 2026 3:30:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 149; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+</testsuite>
